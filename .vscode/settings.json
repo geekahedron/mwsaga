@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/cda30ed4-339a-4008-930d-0d894b4c7bde/resourceGroups/mwsaga/providers/Microsoft.Web/sites/mwsaga",
+    "appService.deploySubpath": ""
+}
