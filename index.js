@@ -4,7 +4,7 @@ const express = require('express')
 
 	app.use(function(req,res,next)
 	{
-		let out = "This is a test page (" + app.get('env') + "," + req.path + ")"
+		let out = "This is a new test page (" + app.get('env') + "," + req.path + ")"
 		res.send(out)
 	})
 
